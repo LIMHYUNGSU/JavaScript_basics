@@ -16,6 +16,7 @@ const yujin ={
 for(let key in yujin){
     console.log(key);
 };
+
 console.log('-------------');
 
 const iveMembersArray =[

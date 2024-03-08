@@ -28,6 +28,7 @@ function multiply6(x){
     }
 }
 console.log(multiply6(3)(4)(5));
+console.log('-------------------------------------------');
 
 const multiplyTwo = function(x,y){
     return x*y;

@@ -97,6 +97,7 @@ const iveMembersArray=[
     '이서'
 ];
 console.log(iveMembersArray);
+console.log(typeof iveMembersArray);
 
 //index
 console.log(iveMembersArray[0]);

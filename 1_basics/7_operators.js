@@ -40,6 +40,7 @@ console.log(typeof +sample);
 
 console.log(sample);
 console.log(typeof sample);
+console.log('------------------------------------------------');
 
 sample = true;
 console.log(+sample);

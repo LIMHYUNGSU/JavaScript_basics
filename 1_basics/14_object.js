@@ -40,7 +40,7 @@ console.log(yuJin2.dance());
 yuJin2['group'] = '코드공장';
 console.log(yuJin2);
 
-yuJin2['englishName'] = 'An Yu Jin';
+yuJin2['englishName'] = 'An Yu Jin'; //존재하지 않는 프로퍼티를 생성 할 수 있다.
 console.log(yuJin2);
 
 delete yuJin2['englishName'];

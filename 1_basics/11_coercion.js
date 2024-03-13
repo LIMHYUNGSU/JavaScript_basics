@@ -31,7 +31,9 @@ console.log('-------------');
 /**
  * boolean 타입으로의 변환
  */
-console.log(!!'xqesda'); //외우자 string값 안에 값이 들어 있을때 boolean기준으로 볼때 true 다!!!
+
+console.log(!'xqesda'); //외우자 string값 안에 값이 들어 있을때 boolean기준으로 볼때 true 다!!!
+console.log(!!'xqesda'); 
 console.log(!!''); //값이 없을때는 false다!
 
 

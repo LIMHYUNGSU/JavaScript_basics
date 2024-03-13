@@ -4,6 +4,19 @@
  * 실제 입력하는 값은 argument라고 한다.
  */
 
+function multiply(x,y){
+    console.log(x * y);
+}
+multiply(3,4);
+/**
+ * 반환값 받기
+ */
+console.log('-----------------------------------------');
+function multiply(x,y){
+    return x*y;
+}
+const result = multiply(3,4);
+console.log(result);
 /**
  * Arrow 함수
  */
@@ -15,8 +28,8 @@ console.log(multiply2(3,4));
 
 const multiply3 = (x,y) => x * y;
 console.log(multiply3(4,5));
-//둘다 똑같은거임
 
+//둘다 똑같은거임
 const multiply5 = x => y => z => `x:${x} y:${y} z:${z}`;
 console.log(multiply5(2)(5)(7));
 
@@ -28,6 +41,7 @@ function multiply6(x){
     }
 }
 console.log(multiply6(3)(4)(5));
+
 console.log('-------------------------------------------');
 
 const multiplyTwo = function(x,y){
@@ -46,7 +60,7 @@ console.log(multiplyThree(4,5,6));
 
 const multiplyAll = function(...arguments){
      //무한의 파라미터를 사용하는
-     return Object.values(arguments).reduce((a,b) => a*b, 1);
+     return Object.values(arguments).reduce((a,b) => a * b, 1);
 }
 
 console.log(multiplyAll(3,4,5,6,7,8,9,10));

@@ -30,7 +30,7 @@ console.log(yuJin.nameAndYear); //getter가 함수처럼 정의했지만 그냥 
 yuJin.setName = '장원영';
 console.log(yuJin);
 
-console.log('-----------------------------------------------');
+console.log('----------------------------------------------------------------------------');
 
 
 class IdolModel2{

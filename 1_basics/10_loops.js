@@ -17,13 +17,14 @@ for(let key in yujin){
     console.log(key);
 };
 
+
 console.log('-------------');
 
 const iveMembersArray =[
     '안유진', '가을','레이','장원영','리즈','이서'
 ];
 for(let key in iveMembersArray){
-    console.log(key); //인덱스 값 = key값
+    console.log(key); //배열에서는 key값 = 인덱스 값 
     console.log(`${key} : ${iveMembersArray[key]}`);
 };
 console.log('-------------');
